@@ -102,7 +102,7 @@ PostgreSQL
 # Estructura del proyecto
 
 ```text
-mini-discord/
+reachyn/
 ├── docker-compose.yml
 ├── README.md
 ├── .env.example
@@ -130,7 +130,7 @@ mini-discord/
 
 ```bash
 git clone <repo-url>
-cd mini-discord
+cd reachyn
 ```
 
 ---
@@ -140,7 +140,7 @@ cd mini-discord
 Crear un archivo `.env` en la raíz del proyecto:
 
 ```env
-DATABASE_URL=postgresql://minidiscord:dev_password@localhost:5432/minidiscord
+DATABASE_URL=postgresql://reachyn:dev_password@localhost:5432/reachyn
 REDIS_URL=redis://localhost:6380
 JWT_SECRET=super_secret_dev_key
 ```
